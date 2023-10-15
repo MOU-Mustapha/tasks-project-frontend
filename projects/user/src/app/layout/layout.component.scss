@@ -1,0 +1,37 @@
+nav {
+  background-color: #ca085a;
+  .navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    color: #e3d510;
+  }
+  a {
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    &.active {
+      background-color: #910340;
+      color: #fff;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+  }
+  .logout {
+    &:hover {
+      color: #e3d510;
+    }
+  }
+  .lang {
+    cursor: pointer;
+    &:hover {
+      color: #e3d510;
+    }
+  }
+}

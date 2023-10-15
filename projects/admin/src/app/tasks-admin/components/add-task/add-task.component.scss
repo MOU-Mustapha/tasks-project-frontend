@@ -1,0 +1,24 @@
+h1 {
+  font-weight: bold;
+}
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 130px;
+  max-height: 130px;
+}
+.mat-icon {
+  margin: 0;
+}
+#image {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.update-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
